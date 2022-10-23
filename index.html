@@ -36,10 +36,15 @@
     <title>404 not found</title>
 
     <style>
+
+        * {
+            
+        border: 0;
+        }
       main {
         display: flex;
         align-items: center;
-        margin-top: 10%;
+        margin-top: 5%;
       }
 
       body {
@@ -47,6 +52,7 @@
         min-height: 97vh;
         display: flex;
         flex-direction: column;
+        color: #333;
       }
 
       header {
@@ -57,6 +63,7 @@
         line-height: 25px;
         letter-spacing: -0.08em;
         text-transform: uppercase;
+        font-size: 24px;
       }
 
       .image {
@@ -70,22 +77,25 @@
         padding-left: 25%;
       }
 
-      .content{
+      .content {
         width: 50%;
       }
 
       h1 {
-        width: 60%;
+        width: 80%;
         letter-spacing: -0.035em;
+        line-height: 71px;
+        font-size: 48px;
       }
 
-      p{
-        width: 60%;
+      p {
+        width: 50%;
         letter-spacing: -0.035em;
+        font-size: 18px;
       }
 
       #back {
-        background-color: black;
+        background-color: #333;
         color: white;
         font-family: "Space Mono";
         text-transform: uppercase;
@@ -93,13 +103,43 @@
         font-size: 14px;
       }
 
-      footer{
+      footer {
         text-align: center;
         font-family: "Montserrat";
-        color:  #BDBDBD;
+        color: #bdbdbd;
         font-weight: 500;
-        font-size: clamp(8px, 2vw, 14px);        
+        font-size: 14px;
+        line-height: 17px;
         margin-top: auto;
+      }
+
+      @media screen and (max-width: 450px) {
+        main {
+          display: block;
+        }
+
+        .image {
+          width: 80%;
+        }
+
+        #crow {
+          width: 100%;
+          padding: 10%;
+        }
+
+        .content {
+          width: 100%;
+        }
+
+        h1 , p {
+          width: 100%;
+          margin: 10px;
+        }
+
+        #back {
+          margin: 20px;
+        }
+
       }
     </style>
   </head>
@@ -114,11 +154,13 @@
         <h1>I have bad news for you</h1>
         <p>
           The page you are looking for might be removed or is temporarily
-          unavaible
+          unavailable
         </p>
         <button id="back">Back to homepage</button>
       </div>
     </main>
-    <footer>created by <b><u>flaviovieiraj</u></b> - devChallenges.io</footer>
+    <footer>
+      created by <b><u>flaviovieiraj</u></b> - devChallenges.io
+    </footer>
   </body>
 </html>
