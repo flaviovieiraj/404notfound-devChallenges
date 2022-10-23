@@ -1,1 +1,1 @@
-[Challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY): Create a 404 not found page following the [design](https://www.figma.com/file/QeKWLNhB13zDjJzqR22TKE/404-page-challenge). The page should be responsive.
+[Challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY): Create a 404 not found page following the design. The page should be responsive.
